@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>персонаж </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="quiz-container">
+    <header>
+      <div class="logo">🎮 фан клуб</div>
+      <p class="subtitle">Перевір, на скількі знаєш персонажів!</p>
+    </header>
+
+    <div class="progress-info">
+      <span id="question-number">Запитання 1 з 10</span>
+      <span id="score">Бали: 0</span>
+    </div>
+
+    <div class="progress-bar">
+      <div id="progress"></div>
+    </div>
+
+    <section id="quiz">
+      <img id="game-image" src="" alt="Зображення гри">
+      <h2 id="question">Який це персорнаж?</h2>
+      <div id="answers" class="answers"></div>
+      <p id="feedback" aria-live="polite"></p>
+      <button id="next-btn" hidden>Наступне запитання ➜</button>
+    </section>
+
+    <section id="result" hidden>
+      <div class="trophy">🏆</div>
+      <h2>Квіз завершено!</h2>
+      <p id="final-score"></p>
+      <p id="result-message"></p>
+      <button id="restart-btn">🔄  ще раз</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
